@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react'
 import './Login.css';
 import { useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
-import goldLogo from '../../../Assets/logo2-SVG.svg'
+import goldLogo from '../../../assets/logo2-SVG.svg'
 import { Button, Container, FloatingLabel, Form, Image, Row, Spinner, Stack } from 'react-bootstrap';
 import { Alert, Snackbar, Slide } from '@mui/material';
 

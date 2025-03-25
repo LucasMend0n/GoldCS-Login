@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 import {HiLogout} from 'react-icons/hi'
 import {AiOutlinePlusCircle} from 'react-icons/ai'
 import './Navbar.model.css'
-import logo from '../../../Assets/goldLogo.png'
+import logo from '../../../assets/goldLogo.png'
 import useAuth from '../../../hooks/useAuth'
 
  const Navbar = () =>{

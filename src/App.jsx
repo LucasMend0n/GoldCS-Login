@@ -1,9 +1,9 @@
 import { Route, Routes } from 'react-router-dom';
 import './Global.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Login from './Components/Pages/Login';
-import Home from './Components/Pages/home';
-import Layout from './Components/Layout/Layout';
+import Login from "./components/Pages/Login";
+import Home from './components/Pages/Home';
+import Layout from './components/Layout/Layout';
 import RequireAuth from './components/Layout/RequireAuth';
 
 function App() {

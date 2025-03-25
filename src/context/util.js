@@ -1,4 +1,4 @@
-import apiGold from "../Services/api";
+import apiGold from "../services/api";
 
 export function setUserLocalStorage(user) {
   localStorage.setItem("@user", JSON.stringify(user));

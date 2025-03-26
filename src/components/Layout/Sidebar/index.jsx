@@ -2,11 +2,11 @@ import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 import { Link, NavLink } from 'react-router-dom';
-import { sidebarData } from './sidebarData';
-import logoNav from '../../../Assets/logo1-variant-2-vector.svg'
+import logoNav from '../../../assets/logo1-variant-2-vector.svg'
 import './sidebar.css'
 import { FiLogOut } from 'react-icons/fi'
 import useAuth from '../../../hooks/useAuth';
+import {sidebarData}  from './sidebarData';
 
 
 const Sidebar = () => {

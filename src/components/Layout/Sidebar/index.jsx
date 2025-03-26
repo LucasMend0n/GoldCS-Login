@@ -22,7 +22,7 @@ const Sidebar = () => {
           <FaBars onClick={showSidebar} />
         </NavLink>
         <ul className='sidebar-items'>
-          {SidebarData.map((item, index) => {
+          {sidebarData.map((item, index) => {
             return (
               <li key={index} className='list-item'>
                 <NavLink to={item.path} className='sidebar-items-icons'>

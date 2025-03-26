@@ -1,8 +1,7 @@
-import {AiFillHome, AiOutlineUser} from 'react-icons/ai'
-import {BsFillBoxSeamFill, BsFillArchiveFill, BsFillFileTextFill} from 'react-icons/bs'
+import React from 'react';
+import {AiFillHome} from 'react-icons/ai'
 
-
-export const sidebarData = [
+ const sidebarData  = [
     {
       title: 'Home',
       path: '/',
@@ -10,3 +9,5 @@ export const sidebarData = [
       cName: 'nav-text'
     },
   ];
+
+export default sidebarData;

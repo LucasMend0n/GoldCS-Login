@@ -6,7 +6,7 @@ import logoNav from '../../../assets/logo1-variant-2-vector.svg'
 import './sidebar.css'
 import { FiLogOut } from 'react-icons/fi'
 import useAuth from '../../../hooks/useAuth';
-import {sidebarData}  from './sidebarData';
+import {sidebarData}  from '../../../../src/components/Layout/Sidebar/sidebarData';
 
 
 const Sidebar = () => {

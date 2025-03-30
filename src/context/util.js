@@ -17,11 +17,12 @@ export function getUserLocalStorage() {
 
 export async function loginRequest(email, password) {
   try {
-    const req = await apiGold.post("Authenticate/LoginUser", {
+    console.log("API URL:", import.meta.env.VITE_API_URL);
+    const req = await apiGold.post("login/LoginUser", {
       email,
       password,
     });
-    return req.data
+    return req.data;
   } catch (err) {
     return err;
   }
